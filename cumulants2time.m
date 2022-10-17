@@ -1,4 +1,3 @@
-addpath([cd, '\bSOFI']);
 %% Image TIFF file or image sequence.
 %
 %stack='example.tif';
@@ -59,4 +58,3 @@ fidm = [filebase,'_cumulants.xlsx'];
 xlswrite(fidm,cum','sheet1');
 xlswrite(fidm,[tao',meanCulm'],'mean');
 xlswrite(fidm,[rows,cols],'position');
-rmpath([cd, '\bSOFI'])
